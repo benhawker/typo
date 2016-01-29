@@ -21,8 +21,8 @@ module NavigationHelpers
     when /^the admin home page$/
       '/admin'
 
-    when /^the categories admin page$/
-      'admin/content/categories'
+    when /^the admin categories page$/
+      '/admin/categories/new'
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

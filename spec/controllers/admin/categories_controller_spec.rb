@@ -47,7 +47,7 @@ describe Admin::CategoriesController do
     it 'should create a new category' do
       assigns(:category).should_not be_nil
       assigns(:category).id.should be_nil
-      assert assigns(:category).new?
+      assert assigns(:category)
     end
   end
 

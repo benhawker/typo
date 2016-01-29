@@ -13,10 +13,10 @@ Feature: Add Category
     When I follow "Categories"
     Then I should be on the admin categories page
 
-    When I fill in "name" with "Cat Foobar"
-    And I press "save"
-    Then I should be on the categories admin page
-    And I should see "Cat Foobar"
+    When I fill in "category[name]" with "Bob"
+    And I press "Save"
+    Then I should be on the admin categories page
+    And I should see "Bob"
 
   Scenario: Edit existing category
     Given  Pending
